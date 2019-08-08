@@ -1,0 +1,2 @@
+/usr/bin/ar qc libproto_svr.a  CMakeFiles/proto_svr.dir/Raft.grpc.pb.cc.o
+/usr/bin/ranlib libproto_svr.a

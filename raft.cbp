@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="raft"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\protos\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/antileaf/桌面/raft"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/antileaf/桌面/raft"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/antileaf/桌面/raft/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antileaf/桌面/raft"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/antileaf/桌面/raft"/>
+					<Add directory="/home/antileaf/桌面/raft/protos"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/antileaf/桌面/raft/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antileaf/桌面/raft"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/antileaf/桌面/raft"/>
+					<Add directory="/home/antileaf/桌面/raft/protos"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/antileaf/桌面/raft"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="proto_cli">
+				<Option output="/home/antileaf/桌面/raft/protos/libproto_cli.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antileaf/桌面/raft/protos"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/antileaf/桌面/raft/protos"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/protos/Makefile&quot;  VERBOSE=1 proto_cli"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/protos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/protos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/protos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="proto_cli/fast">
+				<Option output="/home/antileaf/桌面/raft/protos/libproto_cli.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antileaf/桌面/raft/protos"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/antileaf/桌面/raft/protos"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/protos/Makefile&quot;  VERBOSE=1 proto_cli/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/protos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/protos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/protos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="proto_svr">
+				<Option output="/home/antileaf/桌面/raft/protos/libproto_svr.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antileaf/桌面/raft/protos"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/antileaf/桌面/raft/protos"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/protos/Makefile&quot;  VERBOSE=1 proto_svr"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/protos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/protos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/protos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="proto_svr/fast">
+				<Option output="/home/antileaf/桌面/raft/protos/libproto_svr.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antileaf/桌面/raft/protos"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/antileaf/桌面/raft/protos"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/protos/Makefile&quot;  VERBOSE=1 proto_svr/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/protos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/protos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/antileaf/桌面/raft/protos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/antileaf/桌面/raft/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/antileaf/桌面/raft/protos/Raft.grpc.pb.cc">
+			<Option target="proto_svr"/>
+		</Unit>
+		<Unit filename="/home/antileaf/桌面/raft/protos/Raft.grpc.pb.cc.rule">
+			<Option target="proto_svr"/>
+		</Unit>
+		<Unit filename="/home/antileaf/桌面/raft/protos/Raft.grpc.pb.h">
+			<Option target="proto_svr"/>
+		</Unit>
+		<Unit filename="/home/antileaf/桌面/raft/protos/Raft.pb.cc">
+			<Option target="proto_cli"/>
+		</Unit>
+		<Unit filename="/home/antileaf/桌面/raft/protos/Raft.pb.h">
+			<Option target="proto_cli"/>
+			<Option target="proto_svr"/>
+		</Unit>
+		<Unit filename="/home/antileaf/桌面/raft/protos/Raft.pb.h.rule">
+			<Option target="proto_cli"/>
+			<Option target="proto_svr"/>
+		</Unit>
+		<Unit filename="/home/antileaf/桌面/raft/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/antileaf/桌面/raft/protos/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\protos\"/>
+		</Unit>
+		<Unit filename="/home/antileaf/桌面/raft/cmake/Findgrpc.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

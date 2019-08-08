@@ -1,0 +1,7 @@
+/snap/clion/81/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /home/antileaf/桌面/raft
+-- CLI SRC /home/antileaf/桌面/raft/protos/Raft.pb.cc, CLI HEAD /home/antileaf/桌面/raft/protos/Raft.pb.h
+command: /usr/local/bin/protoc--grpc_out=/home/antileaf/桌面/raft/protos--plugin=protoc-gen-grpc=/usr/local/bin/grpc_cpp_plugin-I/home/antileaf/桌面/raft/protos/home/antileaf/桌面/raft/protos/Raft.proto
+-- SVR SRC /home/antileaf/桌面/raft/protos/Raft.grpc.pb.cc, SVR HEAD /home/antileaf/桌面/raft/protos/Raft.grpc.pb.h
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/antileaf/桌面/raft

@@ -1,0 +1,110 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/antileaf/桌面/raft/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1836/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1836.dir/build.make CMakeFiles/cmTC_d1836.dir/build
+make[1]: 进入目录“/home/antileaf/桌面/raft/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d1836.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d1836.dir/CheckSymbolExists.c.o   -c /home/antileaf/桌面/raft/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d1836
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1836.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d1836.dir/CheckSymbolExists.c.o  -o cmTC_d1836 
+CMakeFiles/cmTC_d1836.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d1836.dir/build.make:97: recipe for target 'cmTC_d1836' failed
+make[1]: *** [cmTC_d1836] Error 1
+make[1]: 离开目录“/home/antileaf/桌面/raft/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_d1836/fast' failed
+make: *** [cmTC_d1836/fast] Error 2
+
+File /home/antileaf/桌面/raft/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/antileaf/桌面/raft/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2169/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2169.dir/build.make CMakeFiles/cmTC_f2169.dir/build
+make[1]: 进入目录“/home/antileaf/桌面/raft/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f2169.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f2169.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f2169
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2169.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f2169.dir/CheckFunctionExists.c.o  -o cmTC_f2169 -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f2169.dir/build.make:97: recipe for target 'cmTC_f2169' failed
+make[1]: *** [cmTC_f2169] Error 1
+make[1]: 离开目录“/home/antileaf/桌面/raft/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_f2169/fast' failed
+make: *** [cmTC_f2169/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/antileaf/桌面/raft/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0942a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0942a.dir/build.make CMakeFiles/cmTC_0942a.dir/build
+make[1]: 进入目录“/home/antileaf/桌面/raft/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0942a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0942a.dir/CheckSymbolExists.c.o   -c /home/antileaf/桌面/raft/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0942a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0942a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_0942a.dir/CheckSymbolExists.c.o  -o cmTC_0942a 
+CMakeFiles/cmTC_0942a.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0942a.dir/build.make:97: recipe for target 'cmTC_0942a' failed
+make[1]: *** [cmTC_0942a] Error 1
+make[1]: 离开目录“/home/antileaf/桌面/raft/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_0942a/fast' failed
+make: *** [cmTC_0942a/fast] Error 2
+
+File /home/antileaf/桌面/raft/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/antileaf/桌面/raft/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8cf43/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8cf43.dir/build.make CMakeFiles/cmTC_8cf43.dir/build
+make[1]: 进入目录“/home/antileaf/桌面/raft/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8cf43.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8cf43.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8cf43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cf43.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_8cf43.dir/CheckFunctionExists.c.o  -o cmTC_8cf43 -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8cf43.dir/build.make:97: recipe for target 'cmTC_8cf43' failed
+make[1]: *** [cmTC_8cf43] Error 1
+make[1]: 离开目录“/home/antileaf/桌面/raft/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_8cf43/fast' failed
+make: *** [cmTC_8cf43/fast] Error 2
+
+

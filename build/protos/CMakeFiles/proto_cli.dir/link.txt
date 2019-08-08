@@ -1,0 +1,2 @@
+/usr/bin/ar qc libproto_cli.a  CMakeFiles/proto_cli.dir/Raft.pb.cc.o
+/usr/bin/ranlib libproto_cli.a

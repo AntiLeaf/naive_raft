@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/antileaf/桌面/raft/server.cc
+vector
+-
+protos/raft.pb.h
+-
+protos/raft.grpc.pb.h
+/home/antileaf/桌面/raft/protos/raft.grpc.pb.h
+

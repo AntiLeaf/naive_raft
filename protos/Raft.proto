@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+message Message {
+	int32 id_from = 1;
+	int32 id_to = 2;
+	
+	enum message_type {
+		// option allow_alias = true;
+		universal_t = 0;
+		request_vote_t = 1;
+		vote_t = 2;
+		set_leader_t = 3;
+	}
+	message_type type = 3;
+	
+	int32 value = 4;
+}
+
+service RaftRpc {
+	rpc send_message (Message) returns (Message) { }
+}
